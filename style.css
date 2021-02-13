@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    background: hsl(218, 28%, 13%);
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* Header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    padding: 50px 20px;
+}
+
+a {
+    color: grey;
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+.standAlone {
+    margin-left: 2.5rem;
+}
+
+
+/* Header DONE !!!*/
+
+
+/* Intro */
+
+.introContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+figure img {
+    padding-bottom: 5rem;
+}
+
+.descriptionIntro {
+    position: absolute;
+    top: 58%;
+    text-align: center;
+}
+
+.descriptionIntro h1 {
+    font-size: 3rem;
+}
+
+.introDescription {
+    padding-top: 2rem;
+    font-size: 1.5rem;
+    color: grey;
+    text-align: center;
+}
+
+.introBtn {
+    margin-top: 2rem;
+    padding: 1rem 5rem 1rem 5rem;
+    border-radius: 25px;
+}
+
+
+/* Intro DONE */
+
+.svgContainer {
+    position: relative;
+    background: hsl(217, 28%, 15%);
+    overflow: hidden;
+}
+
+.waves>svg {
+    display: block;
+}
+
+
+/*Footer*/
+
+footer {
+    background: hsl(216, 53%, 9%);
+}
