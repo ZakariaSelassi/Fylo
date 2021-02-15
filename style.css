@@ -42,19 +42,18 @@ a {
 /* Intro */
 
 .introContainer {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-figure img {
+.introContainer figure img {
     padding-bottom: 5rem;
 }
 
 .descriptionIntro {
-    position: absolute;
-    top: 58%;
     text-align: center;
 }
 
@@ -65,7 +64,6 @@ figure img {
 .introDescription {
     padding-top: 2rem;
     font-size: 1.5rem;
-    color: grey;
     text-align: center;
 }
 
@@ -78,15 +76,81 @@ figure img {
 
 /* Intro DONE */
 
-.svgContainer {
+
+/*Skills */
+
+
+/* Skills DONE ! */
+
+.skills {
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background: #181F2B;
+    justify-content: center;
+    margin-top: 2.5rem;
+}
+
+.skills>div {
+    display: flex;
+    flex-basis: calc(50% - 40px);
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.column h2 {
+    padding-bottom: 1rem;
+}
+
+.skills svg {
+    display: block;
+    margin: auto;
+    margin-bottom: 1.5rem;
+}
+
+
+/*skills DONE */
+
+
+/* Productivity */
+
+.productivity {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.productiveText {}
+
+.productiveText h2 {
+    padding-bottom: 1rem;
+}
+
+.productiveText p {
+    padding-bottom: 1rem;
+}
+
+.productivity p a {
+    color: hsl(198, 60%, 50%);
+    text-decoration: underline;
+}
+
+
+/* Productivity done */
+
+
+/*.svgContainer {
     position: relative;
     background: hsl(217, 28%, 15%);
     overflow: hidden;
 }
 
-.waves>svg {
+.waves {
     display: block;
-}
+}*/
 
 
 /*Footer*/
