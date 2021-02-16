@@ -121,9 +121,16 @@ a {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
 }
 
-.productiveText {}
+.productiveText {
+    justify-content: flex-start;
+    margin-left: 3rem;
+}
 
 .productiveText h2 {
     padding-bottom: 1rem;
@@ -142,6 +149,43 @@ a {
 /* Productivity done */
 
 
+/* Testimonial */
+
+.testimonials {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10rem;
+}
+
+.testimonialsContent {
+    background: hsl(219, 30%, 18%);
+    margin-left: 3.5rem;
+    margin-right: 3.5rem;
+    border-radius: 5px;
+    box-shadow: 2px 2px 20px 2px hsl(216, 53%, 9%);
+    padding: 2rem;
+}
+
+.descriptionTestimonials {
+    display: flex;
+    padding-top: 2rem;
+}
+
+.descriptionTestimonials figure {
+    width: 15%;
+}
+
+.testimonialsContent img {
+    border-radius: 50px;
+    width: 50%;
+    margin-left: 1rem;
+}
+
+
+/*testimonials done ! */
+
+
 /*.svgContainer {
     position: relative;
     background: hsl(217, 28%, 15%);
@@ -157,4 +201,20 @@ a {
 
 footer {
     background: hsl(216, 53%, 9%);
+}
+
+.footerItems {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 5rem;
+}
+
+.logoContacts {
+    padding-top: 10rem;
+}
+
+.footerItems li {
+    list-style: none;
+    line-height: 2rem;
 }
