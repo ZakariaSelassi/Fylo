@@ -71,6 +71,7 @@ a {
     margin-top: 2rem;
     padding: 1rem 5rem 1rem 5rem;
     border-radius: 25px;
+    width: 30%;
 }
 
 
@@ -200,21 +201,50 @@ a {
 /*Footer*/
 
 footer {
+    position: relative;
     background: hsl(216, 53%, 9%);
+}
+
+.logoFooter {
+    margin-left: 5rem;
+    padding-top: 5rem;
 }
 
 .footerItems {
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
-    margin: 5rem;
+    align-items: flex-start;
+    margin: 0rem 5rem 5rem 5rem;
+    padding-top: 2rem;
 }
 
-.logoContacts {
-    padding-top: 10rem;
+.location-items {
+    display: flex;
+}
+
+.location-items img {
+    margin-right: 0.5rem;
+    width: 5%;
+    height: 5%;
+}
+
+.contact-items div {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.contact-items div p {
+    margin-left: 0.5rem;
 }
 
 .footerItems li {
     list-style: none;
     line-height: 2rem;
 }
+
+.attribution {
+    text-align: center;
+}
+
+
+/*footer DONE !*/
