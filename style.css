@@ -8,129 +8,114 @@ body {
     width: 100%;
     height: auto;
     background: hsl(218, 28%, 13%);
+    font-size: 14px;
     color: white;
     font-family: 'Open Sans', sans-serif;
 }
-
-
-/* Header */
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
-    height: auto;
-    flex-wrap: wrap;
-    padding: 50px 20px;
+    padding: 1.5rem 1rem;
 }
 
-a {
+header img {
+    width: 20%;
+    height: 20%;
+}
+
+header nav a {
     color: grey;
     text-decoration: none;
-    margin-right: 50px;
-}
-
-.standAlone {
-    margin-left: 2.5rem;
+    margin-right: 0.2rem;
+    padding-left: 0.8rem;
 }
 
 
-/* Header DONE !!!*/
-
-
-/* Intro */
+/*END header*/
 
 .introContainer {
-    position: relative;
+    /*position: relative;*/
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.introContainer figure img {
-    padding-bottom: 5rem;
+    margin: auto;
 }
 
 .descriptionIntro {
     text-align: center;
+    width: 75%;
 }
 
 .descriptionIntro h1 {
-    font-size: 3rem;
+    font-size: 1.2rem;
+}
+
+.introContainer figure img {
+    display: block;
+    margin: auto;
+    padding-bottom: 1rem;
+    width: 50%;
+    height: 50%;
 }
 
 .introDescription {
     padding-top: 2rem;
-    font-size: 1.5rem;
     text-align: center;
+    color: grey;
 }
 
 .introBtn {
-    margin-top: 2rem;
+    margin: 2rem 0rem 5rem 0rem;
     padding: 1rem 5rem 1rem 5rem;
     border-radius: 25px;
-    width: 30%;
 }
 
 
-/* Intro DONE */
-
-
-/*Skills */
-
-
-/* Skills DONE ! */
+/* END */
 
 .skills {
-    min-height: 100%;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
     background: #181F2B;
     justify-content: center;
-    margin-top: 2.5rem;
 }
 
-.skills>div {
+.skills img {
+    display: block;
+    margin: auto;
+    padding-bottom: 1rem;
+    width: 15%;
+    height: 15%;
+}
+
+.column {
     display: flex;
-    flex-basis: calc(50% - 40px);
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    padding: 1.5rem;
+    padding: 2rem;
+    margin: auto;
 }
 
 .column h2 {
     padding-bottom: 1rem;
 }
 
-.skills svg {
-    display: block;
-    margin: auto;
-    margin-bottom: 1.5rem;
-}
 
-
-/*skills DONE */
-
-
-/* Productivity */
+/* END */
 
 .productivity {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    margin-left: 5rem;
-    margin-right: 5rem;
-    margin-bottom: 5rem;
-    margin-top: 5rem;
 }
 
 .productiveText {
-    justify-content: flex-start;
-    margin-left: 3rem;
+    padding: 2.5rem;
 }
 
 .productiveText h2 {
@@ -141,31 +126,39 @@ a {
     padding-bottom: 1rem;
 }
 
+.productivity figure img {
+    display: block;
+    margin: auto;
+    width: 80%;
+    height: 80%;
+    padding-bottom: 1rem;
+    padding-top: 5rem;
+}
+
 .productivity p a {
     color: hsl(198, 60%, 50%);
     text-decoration: underline;
 }
 
 
-/* Productivity done */
-
-
-/* Testimonial */
+/* END */
 
 .testimonials {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 10rem;
+    width: 100%;
+    margin: auto;
+    padding: 2rem;
 }
 
 .testimonialsContent {
     background: hsl(219, 30%, 18%);
-    margin-left: 3.5rem;
-    margin-right: 3.5rem;
     border-radius: 5px;
     box-shadow: 2px 2px 20px 2px hsl(216, 53%, 9%);
-    padding: 2rem;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
 }
 
 .descriptionTestimonials {
@@ -174,77 +167,147 @@ a {
 }
 
 .descriptionTestimonials figure {
-    width: 15%;
+    width: 20%;
 }
 
 .testimonialsContent img {
     border-radius: 50px;
-    width: 50%;
-    margin-left: 1rem;
+    width: 75%;
 }
-
-
-/*testimonials done ! */
-
-
-/*.svgContainer {
-    position: relative;
-    background: hsl(217, 28%, 15%);
-    overflow: hidden;
-}
-
-.waves {
-    display: block;
-}*/
 
 
 /*Footer*/
 
-footer {
-    position: relative;
-    background: hsl(216, 53%, 9%);
+
+/* size img */
+
+
+/*
+
+
+.footerItems nav {
+    padding-top: 3rem;
 }
 
-.logoFooter {
-    margin-left: 5rem;
-    padding-top: 5rem;
+*/
+
+footer {
+    background: hsl(216, 53%, 9%);
+    padding: 3rem 2rem;
 }
 
 .footerItems {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin: 0rem 5rem 5rem 5rem;
+    flex-direction: column;
     padding-top: 2rem;
 }
 
-.location-items {
+.location-items,
+.contact-items {
     display: flex;
+    align-items: flex-start;
+    padding: 1rem 0rem 1rem 0rem;
 }
 
-.location-items img {
+.locationItems {
     margin-right: 0.5rem;
-    width: 5%;
-    height: 5%;
 }
 
-.contact-items div {
-    display: flex;
-    margin-bottom: 1rem;
+.items {
+    margin-right: 0.5rem;
+    width: 8%;
+    height: 8%;
 }
 
-.contact-items div p {
-    margin-left: 0.5rem;
+.footerItems a {
+    color: white;
+    text-decoration: none;
 }
 
-.footerItems li {
-    list-style: none;
+.contact,
+.details {
+    padding-bottom: 2.5rem;
+}
+
+.details li,
+.moreDetails li {
     line-height: 2rem;
 }
 
-.attribution {
+.firstDetails,
+.secondDetails {
+    list-style: none;
+}
+
+.marketLogo {
     text-align: center;
 }
 
+.marketLogo a {
+    margin: 0.2rem;
+    padding: 0.3rem;
+}
 
-/*footer DONE !*/
+
+/* END END */
+
+@media screen and (min-width: 1440px) {
+    header {
+        width: auto;
+        padding: 5rem 3rem;
+    }
+    header img {
+        width: 10%;
+        height: 10%;
+    }
+    /*intro*/
+    .introContainer figure img {
+        width: auto;
+        height: auto;
+    }
+    .descriptionIntro {
+        width: 32%;
+    }
+    /* Skills */
+    .skills {
+        width: 60%;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin: auto;
+    }
+    .column {
+        flex-basis: calc(50% - 40px);
+    }
+    /* Productivity */
+    .productivity {
+        flex-direction: row;
+        /*margin: auto;*/
+    }
+    .productiveText {
+        width: 35%;
+    }
+    .productivity figure img {
+        width: auto;
+        height: auto;
+        padding-right: 2rem;
+    }
+    /* testimonials */
+    .testimonials {
+        flex-direction: row;
+        margin: auto;
+        padding: 10rem;
+    }
+    .testimonialsContent {
+        margin-left: 3.5rem;
+    }
+    /* Footer */
+    .footerItems {
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+        margin: auto;
+    }
+    .logoFooter {
+        padding-left: 4rem;
+    }
+}
