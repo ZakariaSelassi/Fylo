@@ -180,19 +180,6 @@ header nav a {
 
 /*Footer*/
 
-
-/* size img */
-
-
-/*
-
-
-.footerItems nav {
-    padding-top: 3rem;
-}
-
-*/
-
 footer {
     background: hsl(216, 53%, 9%);
     padding: 3rem 2rem;
@@ -252,6 +239,12 @@ footer {
 
 
 /* END END */
+
+
+/*animation */
+
+
+/*Desktop design */
 
 @media screen and (min-width: 1440px) {
     header {
