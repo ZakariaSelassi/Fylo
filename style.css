@@ -71,6 +71,8 @@ header nav a {
     margin: 2rem 0rem 5rem 0rem;
     padding: 1rem 5rem 1rem 5rem;
     border-radius: 25px;
+    background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    color: white;
 }
 
 
