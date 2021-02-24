@@ -1,7 +1,7 @@
 # Welcome! 👋
 
 ## Page to realize : Fylo Landing page with dark theme 
-![Design](./design/desktop-preview.jpg)
+![Design](./assets/design/desktop-preview.jpg)
 
 ### Objective 
 The design is created for :
@@ -14,7 +14,7 @@ The design is created for :
  2. Only flexbox (personal) 
 
 
-Click the link to visite my version of the page :point_down:
+Click the link to visite my version of the page :point_right:
 [Fylo](https://zakariaselassi.github.io/Fylo/)
 
 **Thanks for watching** 🚀
