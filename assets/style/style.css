@@ -35,6 +35,10 @@ header nav a {
 
 /*END header*/
 
+.test {
+    background-image: url(/images/bg-curvy-mobile.svg);
+}
+
 .introContainer {
     /*position: relative;*/
     display: flex;
@@ -73,6 +77,10 @@ header nav a {
     border-radius: 25px;
     background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
     color: white;
+}
+
+.introBtn:hover {
+    animation: changeColor 0.8s ease;
 }
 
 
@@ -242,6 +250,18 @@ footer {
 
 
 /*animation */
+
+@keyframes changeColor {
+    0% {
+        background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    }
+    50% {
+        background-image: linear-gradient(to left, hsl(176, 79%, 11%), hsl(198, 27%, 32%));
+    }
+    100% {
+        background-image: linear-gradient(to right, hsl(342, 79%, 11%), hsl(300, 100%, 41%));
+    }
+}
 
 
 /*Desktop design */

@@ -8,7 +8,7 @@ The design is created for :
 
  - Mobile : 375px
  - Desktop : 1440px 
-## Steps :
+#### Steps :
 
  1. Mobile first 
  2. Only flexbox (personal) 
