@@ -12,8 +12,7 @@ The design is created for :
 
  1. Mobile first 
  2. Only flexbox (personal) 
-
-
+ 
 Click the link to visite my version of the page :point_right:
 [Fylo](https://zakariaselassi.github.io/Fylo/)
 
